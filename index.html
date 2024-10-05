@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>For My Teacher</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card">
+        <div class="header">
+            <h1>To My Teacher, My Love</h1>
+        </div>
+        
+        <div class="buttons">
+            <button class="btn reveal-poem-btn" onclick="revealPoem()">Reveal📜</button>
+            <button class="btn heart-btn" onclick="sendLove()">Send Love ❤️</button>
+            <button class="btn surprise-btn" onclick="revealSurprise()">Reveal 🎁</button>
+        </div>
+
+        <div id="poem" class="poem hidden">
+            <p>
+                You were my teacher once, and still, you are...<br>
+                But now, you're also my partner, my guide, and my forever love. 
+                Every lesson you've taught me in life has shaped who I am, 
+                and I’m so grateful that I still get to learn from you, every single day.
+                Thank you for being my greatest teacher, and soon, my greatest love. 
+                With you, life is the best kind of classroom.
+            </p>
+        </div>
+
+        <div id="surprise" class="surprise hidden">
+            <p>You’re my favorite teacher, now and always! 💖</p>
+        </div>
+
+        <!-- Audio Player Section -->
+        <div class="audio-section">
+            <h3>Listen to this special message 🎶</h3>
+            <audio id="audio-player" controls>
+                <source src="Teacher of My Heart.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+
+    <script>
+        function revealPoem() {
+            document.getElementById("poem").classList.toggle("hidden");
+        }
+
+        function sendLove() {
+            alert("Love sent! ❤️");
+        }
+
+        function revealSurprise() {
+            document.getElementById("surprise").classList.toggle("hidden");
+        }
+    </script>
+</body>
+</html>

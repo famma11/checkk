@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Python",
+			"path": "C:/Users/DELL XPS 13/Desktop/Python"
+		},
+		{
+			"name": "Web-Development",
+			"path": "C:/Users/DELL XPS 13/Desktop/Web-Development"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Web-Development"
+	}
+}
